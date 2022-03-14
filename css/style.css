@@ -937,7 +937,7 @@ footer {
   margin-top: 0;
 }
 
-.inputs-container-item > label {
+.inputs-container-item > .form-label {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 12px;
@@ -946,7 +946,7 @@ footer {
   color: #757575;
 }
 
-.inputs-container-item > input {
+.inputs-container-item > .form-input {
   width: 100%;
   height: 40px;
   margin-top: 4px;
@@ -982,12 +982,12 @@ footer {
   margin-left: auto;
 }
 
-.policy-checkbox > input {
+.policy-checkbox > .checkbox-input {
   width: 16px;
   height: 15px;
 }
 
-.policy-checkbox > label {
+.policy-checkbox > .checkbox-label {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
@@ -1034,7 +1034,7 @@ footer {
   pointer-events: none;
 }
 
-.inputs-container-item:hover input {
+.inputs-container-item:hover .form-input {
   cursor: pointer;
   border: 1px solid #2196f3;
 }

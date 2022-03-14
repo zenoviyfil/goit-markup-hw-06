@@ -430,28 +430,28 @@
         <h2 class="modal-header">Оставьте свои данные, мы вам перезвоним</h2>
         <ul class="inputs-container">
           <li class="inputs-container-item">
-            <label for="name">Имя</label>
-            <input type="text" name="name" id="name" />
+            <label class="form-label" for="name">Имя</label>
+            <input class="form-input" type="text" name="name" id="name" />
             <svg class="name">
               <use href="./imges/icons.svg#name"></use>
             </svg>
           </li>
           <li class="inputs-container-item">
-            <label for="tel">Телефон</label>
-            <input type="tel" name="tel" id="tel" />
+            <label class="form-label" for="tel">Телефон</label>
+            <input class="form-input" type="tel" name="tel" id="tel" />
             <svg class="tel">
               <use href="./imges/icons.svg#tel"></use>
             </svg>
           </li>
           <li class="inputs-container-item">
-            <label for="email">Почта</label>
-            <input type="text" name="email" id="email" />
+            <label class="form-label" for="email">Почта</label>
+            <input class="form-input" type="text" name="email" id="email" />
             <svg class="email">
               <use href="./imges/icons.svg#email"></use>
             </svg>
           </li>
           <li class="inputs-container-item">
-            <label for="comment">Комментарий</label>
+            <label class="form-label" for="comment">Комментарий</label>
             <textarea
               name="textarea"
               id="comment"
@@ -462,8 +462,13 @@
           </li>
         </ul>
         <div class="policy-checkbox">
-          <input type="checkbox" name="checkbox" id="checkbox" />
-          <label for="checkbox">
+          <input
+            class="checkbox-input"
+            type="checkbox"
+            name="checkbox"
+            id="checkbox"
+          />
+          <label class="checkbox-label" for="checkbox">
             Соглашаюсь с рассылкой и принимаю
             <a href="#">Условия договора</a>
           </label>
