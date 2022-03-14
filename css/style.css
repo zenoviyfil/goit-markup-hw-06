@@ -982,6 +982,11 @@ footer {
   margin-left: auto;
 }
 
+.policy-checkbox > input {
+  width: 16px;
+  height: 15px;
+}
+
 .policy-checkbox > label {
   font-family: "Roboto";
   font-weight: 400;
@@ -1006,6 +1011,32 @@ footer {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.inputs-container-item > .name {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+}
+.inputs-container-item > .tel {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+}
+.inputs-container-item > .email {
+  position: absolute;
+  width: 15px;
+  height: 12px;
+}
+.policy-checkbox > .checkbox {
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  pointer-events: none;
+}
+
+.inputs-container-item:hover input {
+  cursor: pointer;
+  border: 1px solid #2196f3;
 }
 
 /* --- --------- --- */
