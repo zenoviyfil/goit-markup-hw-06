@@ -1077,7 +1077,7 @@ footer {
   position: absolute;
   width: 12px;
   height: 12px;
-  top: 107px;
+  top: 105px;
   left: 56px;
   transform: translateY(+50%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1086,7 +1086,7 @@ footer {
   position: absolute;
   width: 13px;
   height: 13px;
-  top: 180px;
+  top: 177px;
   left: 56px;
   transform: translateY(+50%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1096,7 +1096,7 @@ footer {
   position: absolute;
   width: 15px;
   height: 12px;
-  top: 254px;
+  top: 250px;
   left: 56px;
   transform: translateY(+50%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);

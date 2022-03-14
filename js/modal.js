@@ -15,4 +15,4 @@ const refs = {
 
       function logBackdropClick() {
         console.log("клик в бекдроп");
-      }
+}
