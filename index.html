@@ -425,7 +425,9 @@
     <div class="backdrop is-hidden" data-backdrop>
       <div class="modal">
         <button type="button" class="close-btn" data-close-modal>
-          <img src="./imges/close-btn.png" alt="закрить" />
+          <svg class="close">
+            <use href="./imges/icons.svg#close"></use>
+          </svg>
         </button>
         <h2 class="modal-header">Оставьте свои данные, мы вам перезвоним</h2>
         <ul class="inputs-container">
@@ -453,6 +455,7 @@
           <li class="inputs-container-item">
             <label class="form-label" for="comment">Комментарий</label>
             <textarea
+              class="textarea"
               name="textarea"
               id="comment"
               cols="30"

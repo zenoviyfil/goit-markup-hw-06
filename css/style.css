@@ -914,6 +914,15 @@ footer {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.close-btn > .close {
+  width: 11px;
+  height: 11px;
+}
+
+.close-btn:hover {
+  fill: var(--link-color);
+}
+
 .modal-header {
   font-family: "Roboto";
   font-weight: 700;
@@ -1044,15 +1053,15 @@ footer {
 }
 
 .form-input:focus + .name {
-  fill: #2196f3;
+  fill: var(--link-color);
 }
 
 .form-input:focus + .tel {
-  fill: #2196f3;
+  fill: var(--link-color);
 }
 
 .form-input:focus + .email {
-  fill: #2196f3;
+  fill: var(--link-color);
 }
 
 .policy-checkbox > .checkbox {
@@ -1062,9 +1071,9 @@ footer {
   pointer-events: none;
 }
 
-.inputs-container-item:hover .form-input {
+.form-input:focus {
   cursor: pointer;
-  border: 1px solid #2196f3;
+  border: 1px solid var(--link-color);
 }
 
 /* --- --------- --- */
