@@ -1050,7 +1050,7 @@ footer {
   width: 16px;
   height: 15px;
   left: 0;
-  transform: translateY(30%);
+  transform: translateY(20%);
   pointer-events: none;
   border: 2px solid black;
   border-radius: 2px;
