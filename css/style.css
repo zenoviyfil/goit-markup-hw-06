@@ -1066,7 +1066,7 @@ footer {
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
-  color: #2196f3;
+  color: var(--link-color);
 }
 
 .modal-btn {
